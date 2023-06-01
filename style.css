@@ -1,0 +1,558 @@
+@media (max-width: 395px) {
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  p {
+    line-height: 1.5em;
+    margin: 0;
+    text-align: left;
+  }
+  
+  ul {
+    text-align: left;
+  }
+  
+  section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  section.alternate-background {
+    background-color: #00a699;
+    color: #fff;
+  }
+  
+  section#about img {
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-container h3 {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 470px; /* Adjust the max-width as per your preference */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px;
+  }
+  
+  section#host img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* ---  Groups & Items --- */
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px auto; /* Center the item horizontally */
+  }
+  
+  .item img {
+    width: 100%;
+    max-width: 470px; /* Adjust the max-width as per your preference */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .item-double {
+    flex: 2;
+  }
+  
+  /* -------  Navigation ------- */
+  
+   header {
+    background-color: #ff385c;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-family: "Pangolin", cursive;
+    font-size: 55px;
+    color: #fff;
+  } 
+  
+  header nav ul li {
+    list-style-type: none;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+  }
+  
+  header nav ul li a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  /* -------  Search Form ------- */
+  form {
+    border: 2px solid #ff385c;
+    padding: 10px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form select,
+  form input {
+    margin-bottom: 20px;
+    width: 180px;
+  }
+  
+  form button {
+    background-color: #ff385c;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  /* -------  Footer ------- */
+  
+  footer {
+    background-color: #ff385c;
+  }
+  
+  footer p {
+    color: #fff;
+    text-align: center;
+    padding: 20px; }
+  
+}
+
+
+/* iphone XR screen 414px, Samsung Galaxy S20 ultra 412px */
+@media (min-width: 395px)  {
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 10px 10px 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0;
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section.alternate-background {
+  background-color: #00a699;
+  color: #fff;
+}
+
+section#about img {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container h3 {
+  width: 100%;
+  text-align: left;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 470px; /* Adjust the max-width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px;
+}
+
+section#host img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---  Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  margin: 10px auto; /* Center the item horizontally */
+}
+
+.item img {
+  width: 100%;
+  max-width: 470px; /* Adjust the max-width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.item-double {
+  flex: 2;
+}
+
+/* -------  Navigation ------- */
+
+ header {
+  background-color: #ff385c;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Pangolin", cursive;
+  font-size: 65px;
+  color: #fff;
+} 
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+/* -------  Search Form ------- */
+form {
+  border: 2px solid #ff385c;
+  padding: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 180px;
+}
+
+form button {
+  background-color: #ff385c;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  width: 100%;
+}
+
+/* -------  Footer ------- */
+
+footer {
+  background-color: #ff385c;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px; }
+}
+
+/* screens bigger than 480px */
+
+
+
+
+
+
+  
+
+@media (min-width: 480px) {
+    body {
+      font-family: "Lato", sans-serif;
+    }
+    
+    h2 {
+      font-size: 26px;
+      font-weight: 400;
+      margin: 0 10px 10px 10px;
+      text-align: center;
+    }
+    
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      text-align: left;
+      font-weight: bold;
+    }
+    
+    p {
+      line-height: 1.5em;
+      margin: 0;
+      text-align: left;
+    }
+    
+    ul {
+      text-align: left;
+    }
+    
+    section {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    section.alternate-background {
+      background-color: #00a699;
+      color: #fff;
+    }
+    
+    section#about img {
+      margin-bottom: 20px;
+    }
+    
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .image-container h3 {
+      width: 100%;
+      text-align: left;
+    }
+    
+    .image-container img {
+      width: 100%;
+      max-width: 470px; /* Adjust the max-width as per your preference */
+      height: auto; /* Maintain aspect ratio */
+      margin: 10px;
+    }
+    
+    section#host img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+/* ---  Groups & Items --- */
+
+/* ---  Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: row; /* Change flex-direction to row */
+  align-items: flex-start; /* Align items to the top */
+  justify-content: space-between; /* Add space between items */
+}
+
+.item {
+  flex: 1;
+  margin: 10px; /* Remove auto margin to allow for equal spacing */
+}
+
+.item img {
+  width: 100%; /* Adjust the width as per your preference */
+  max-width: 470px; /* Adjust the max-width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.item-double {
+  flex: 2; /* Increase the flex value to make it twice as wide */
+  display: flex; /* Add display flex to allow for vertical alignment */
+  align-items: center; /* Vertically center the content */
+}
+
+.item-double p {
+  width: 100%; /* Reset width to 100% */
+  text-align: left; /* Align text to the left */
+  margin-left: 10px; /* Add margin to create space between image and paragraph */
+}
+
+
+
+
+    
+    /* -------  Navigation ------- */
+  
+    header {
+      background-color: #ff385c;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between; /* Space the logo and navigation links apart */
+      align-items: center; /* Vertically center the logo and navigation links */
+    }
+    
+    .logo {
+      font-family: "Pangolin", cursive;
+      font-size: 50px;
+      color: #fff;
+      margin-right: auto; /* Push the logo to the left */
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    nav li:first-child {
+      margin-right: 0; /* Remove right margin for the first navigation item */
+    }
+    
+    
+    /* -------  Search Form ------- */
+
+      .form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        align-items: basel;
+      }
+      
+      .form-group {
+        flex: 1;
+        margin-right: 100px; /* Adjust the margin as needed */
+        display: flex;
+      }
+      
+      .form-group:last-child {
+        margin-right: 0;
+      }
+      
+      .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      .form-group input,
+      .form-group select {
+        width: 100%; /* Change width to 100% to occupy full width */
+        box-sizing: border-box; /* Add box-sizing to include padding and border in width */
+      }
+      
+      .form-group input[type="text"],
+      .form-group select {
+        padding: 8px; /* Adjust the padding as needed */
+      }
+      
+      .form-group button {
+        margin-left: auto; /* Push the button to the right */
+      }
+      
+      form button {
+        background-color: #ff385c;
+        border: none;
+        color: #fff;
+        font-size: 10px;
+        padding: 15px;
+        width: 10%;
+      }
+      
+    /* -------  Footer ------- */
+    
+    footer {
+      background-color: #ff385c;
+    }
+    
+    footer p {
+      color: #fff;
+      text-align: center;
+      padding: 20px; }
+    }
