@@ -36,7 +36,12 @@
     text-align: center;
   }
   
-  section.alternate-background {
+  section.alternate-backgroundone {
+    background-color: #00a699;
+    color: #fff;
+  }
+
+  section.alternate-backgroundtwo {
     background-color: #00a699;
     color: #fff;
   }
@@ -48,7 +53,7 @@
   .image-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
   }
   
   .image-container h3 {
@@ -100,6 +105,7 @@
   }
   
   .logo {
+    display: flex;
     font-family: "Pangolin", cursive;
     font-size: 55px;
     color: #fff;
@@ -212,7 +218,12 @@ section {
   text-align: center;
 }
 
-section.alternate-background {
+section.alternate-backgroundone {
+  background-color: #00a699;
+  color: #fff;
+}
+
+section.alternate-backgroundtwo {
   background-color: #00a699;
   color: #fff;
 }
@@ -225,6 +236,7 @@ section#about img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
 }
 
 .image-container h3 {
@@ -276,6 +288,7 @@ section#host img {
 }
 
 .logo {
+  display: flex;
   font-family: "Pangolin", cursive;
   font-size: 65px;
   color: #fff;
@@ -379,6 +392,7 @@ footer p {
       line-height: 1.5em;
       margin: 0;
       text-align: left;
+      font-size: 16px;
     }
     
     ul {
@@ -394,7 +408,16 @@ footer p {
       text-align: center;
     }
     
-    section.alternate-background {
+    section.alternate-backgroundone {
+      display: flex;
+      flex-direction: row;
+      background-color: #00a699;
+      color: #fff;
+    }
+
+    section.alternate-backgroundtwo {
+      display: flex;
+      flex-direction: row;
       background-color: #00a699;
       color: #fff;
     }
@@ -422,15 +445,57 @@ footer p {
     }
     
     section#host img {
-      max-width: 100%;
+      max-width: 50%;
       height: auto;
     }
+
+    /* ...existing CSS... */
+
+.content-container {
+  padding-top: 0px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content-container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+/* ...existing CSS... */
+
     
 /* ---  Groups & Items --- */
 
-/* ---  Groups & Items --- */
+
+#about {
+  padding: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  margin-bottom: 20px;
+}
+
+.content-container {
+  padding-top: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
 
 .group {
+  padding-left: 10px;
+  width: 123%;
   display: flex;
   flex-direction: row; /* Change flex-direction to row */
   align-items: flex-start; /* Align items to the top */
@@ -438,8 +503,13 @@ footer p {
 }
 
 .item {
+  display: flex;
   flex: 1;
-  margin: 10px; /* Remove auto margin to allow for equal spacing */
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
 }
 
 .item img {
