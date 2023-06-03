@@ -31,10 +31,11 @@
     /* Media query for screens with a maximum width of 480px */
     @media (min-width: 480px) {
       form {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-        align-items: center;
+        align-items: flex-start;
       }
   
       .form-group {
@@ -81,6 +82,26 @@
       #host .item ul {
         flex-basis: 100%;
       }
+
+      input#location {
+      display: flex;
+      width: 100%;
+    }
+
+    input#Arrive {
+      display: flex;
+      width: 100%;
+    }
+
+    input#Depart {
+      display: flex;
+      width: 100%;
+    }
+
+    input#Type {
+      display: flex;
+      width: 100%;
+    }
     }
   </style>
 </head>

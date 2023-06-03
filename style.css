@@ -371,6 +371,7 @@ footer p {
 
 @media (min-width: 480px) {
     body {
+      width: 100%;
       font-family: "Lato", sans-serif;
     }
     
@@ -429,7 +430,7 @@ footer p {
     .image-container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-evenly;
     }
     
     .image-container h3 {
@@ -461,7 +462,7 @@ footer p {
 
 .content-container-about {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -567,53 +568,48 @@ footer p {
     
     /* -------  Search Form ------- */
 
-      .form {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 100%;
-        align-items: basel;
-      }
-      
-      .form-group {
-        flex: 1;
-        margin-right: 100px; /* Adjust the margin as needed */
-        display: flex;
-      }
-      
-      .form-group:last-child {
-        margin-right: 0;
-      }
-      
-      .form-group label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 5px;
-      }
-      
-      .form-group input,
-      .form-group select {
-        width: 100%; /* Change width to 100% to occupy full width */
-        box-sizing: border-box; /* Add box-sizing to include padding and border in width */
-      }
-      
-      .form-group input[type="text"],
-      .form-group select {
-        padding: 8px; /* Adjust the padding as needed */
-      }
-      
-      .form-group button {
-        margin-left: auto; /* Push the button to the right */
-      }
-      
-      form button {
-        background-color: #ff385c;
-        border: none;
-        color: #fff;
-        font-size: 10px;
-        padding: 15px;
-        width: 10%;
-      }
+    .form {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      align-items: center; /* Align items vertically in the middle */
+    }
+    
+    .form-group {
+      flex: 1;
+      margin-right: 10px; /* Adjust the margin as needed */
+    }
+    
+    .form-group:last-child {
+      margin-right: 0;
+    }
+    
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .form-group input,
+    .form-group select {
+      width: 100%; /* Change width to 100% to occupy full width */
+      box-sizing: border-box; /* Add box-sizing to include padding and border in width */
+      padding: 8px; /* Adjust the padding as needed */
+    }
+    
+    .form-group button {
+      margin-left: 10px; /* Add margin to separate the button from form fields */
+    }
+    
+    form button {
+      background-color: #ff385c;
+      border: none;
+      color: #fff;
+      font-size: 24px;
+      padding: 15px;
+      width: auto; /* Remove fixed width to allow button to shrink */
+    }
       
     /* -------  Footer ------- */
     
