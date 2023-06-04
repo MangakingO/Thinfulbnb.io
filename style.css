@@ -370,6 +370,11 @@ footer p {
   
 
 @media (min-width: 480px) {
+
+    a {
+      font-size: 12px;
+
+    }
     body {
       width: 100%;
       font-family: "Lato", sans-serif;
@@ -393,7 +398,7 @@ footer p {
       line-height: 1.5em;
       margin: 0;
       text-align: left;
-      font-size: 16px;
+      font-size: 15px;
     }
     
     ul {
@@ -547,7 +552,7 @@ footer p {
     
     .logo {
       font-family: "Pangolin", cursive;
-      font-size: 50px;
+      font-size: 30px;
       color: #fff;
       margin-right: auto; /* Push the logo to the left */
     }
@@ -621,4 +626,30 @@ footer p {
       color: #fff;
       text-align: center;
       padding: 20px; }
+    }
+
+
+
+    @media (min-width: 560px) {
+
+    a {
+      font-size: 20px;
+    }
+
+    }
+
+    
+    @media (min-width: 680px) {
+      /* ...existing CSS... */
+    
+      .logo {
+        font-family: "Pangolin", cursive;
+        font-size: 50px;
+        color: #fff;
+        margin-right: auto;
+      }
+
+
+    
+      /* ...existing CSS... */
     }
